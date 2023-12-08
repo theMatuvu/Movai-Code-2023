@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+    /* Changer la couleur du texte si nécessaire */
+  }
+  
+  #boutonmagiquedelamortquitue {
+    margin-top: 15px;
+  }
+  
+  input {
+    text-align: center;
+  }
+  
+  #magnifiquevoiture {
+      
+      transition: transform 2s ease-in-out; 
+      
+  }
+  
+  @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+  }
+
+  #bouton{
+    display: none;
+  }
+
+  
